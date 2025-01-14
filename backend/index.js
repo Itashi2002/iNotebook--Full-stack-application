@@ -1,3 +1,5 @@
+//Command to run this line : nodemon .\index.js
+
 const connectToMongo = require("./db");
 const express = require("express");
 connectToMongo();
