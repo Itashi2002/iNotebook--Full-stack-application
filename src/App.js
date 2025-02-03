@@ -9,6 +9,7 @@ import {
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Alert from "./components/Alert";
 import NoteState from "./context/notes/NoteState";
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <div>
           <Router>
             <Navbar />
-
+            <Alert message="This is amazing course" />
             <div className="container">
               <Routes>
                 <Route path="/" element={<Home />} />
